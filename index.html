@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="style/animate.css" rel="stylesheet" />
+    <script src="scripts/TAM.js"></script>
+
+    <style>
+        div{
+                        display:inline-block;
+                        text-align:center;
+                        
+
+        }
+        img{
+            width:200px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div TAM-AnimationName="zoomIn" TAM-Dur="1000" TAM-Delay="200" >
+        <img src="images/1.png" />
+
+    </div>
+    <div TAM-AnimationName="bounceInDown" TAM-Dur="1000" TAM-Delay="1000" tam-animationtimingfunction="ease-in-out"> 
+        <img src="images/2.png" /></div>
+    <div TAM-AnimationName="bounceInUp" TAM-Dur="1000" TAM-Delay="1500" tam-animationtimingfunction="ease-in-out">
+
+        <img src="images/3.png" />
+    </div>
+    <div TAM-AnimationName="zoomIn" TAM-Dur="1000" TAM-Delay="200">
+        <img src="images/1.png" />
+
+    </div>
+    <div TAM-AnimationName="bounceInDown" TAM-Dur="1000" TAM-Delay="1000" tam-animationtimingfunction="ease-in-out">
+        <img src="images/2.png" />
+    </div>
+    <div TAM-AnimationName="bounceInUp" TAM-Dur="1000" TAM-Delay="1500" tam-animationtimingfunction="ease-in-out">
+
+        <img src="images/3.png" />
+    </div>
+    <div TAM-AnimationName="zoomIn" TAM-Dur="1000" TAM-Delay="200">
+        <img src="images/1.png" />
+
+    </div>
+    <div TAM-AnimationName="bounceInDown" TAM-Dur="1000" TAM-Delay="1000" tam-animationtimingfunction="ease-in-out">
+        <img src="images/2.png" />
+    </div>
+    <div TAM-AnimationName="bounceInUp" TAM-Dur="1000" TAM-Delay="1500" tam-animationtimingfunction="ease-in-out">
+
+        <img src="images/3.png" />
+    </div>
+    <script type="text/javascript">
+        var tam = new TAM();
+        tam.INIT();
+    </script>
+</body>
+</html>
